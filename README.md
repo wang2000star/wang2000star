@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wang2000star)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wang2000star)
+### 编程语言 <picture style="margin-right: 10px;"><img src="/Statistics.gif" width="30" alt="Statistics"></picture>
+<img align="center" src="https://github-readme-stats-olive-two-53.vercel.app/api/top-langs?username=wang2000star&show_icons=true&locale=en&layout=compact&langs_count=11&theme=github_dark_dimmed" alt="wang2000star" width="350" height="250">
 
