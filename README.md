@@ -21,5 +21,5 @@ Here are some ideas to get you started:
 
 
 ### Github 贡献图 <picture style="margin-right: 10px;"><img src="/Statistics.gif" width="30" alt="Statistics"></picture>
-[![Aurorp1g's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=wang2000star&theme=tokyo-night)](https://github.com/wang2000star/github-readme-activity-graph)
+[![wang2000star's github activity graphp(https://github-readme-activity-graph.vercel.app/graph?username=wang2000star&theme=tokyo-night)](https://github.com/wang2000star/github-readme-activity-graph)
 
