@@ -16,10 +16,9 @@ Here are some ideas to get you started:
 -->
 
 
-### 编程语言 <picture style="margin-right: 10px;"><img src="/Statistics.gif" width="30" alt="Statistics"></picture>
+### 编程语言 <picture style="margin-right: 10px;"><img src="./Statistics.gif" width="30" alt="Statistics"></picture>
 <img align="center" src="https://github-readme-stats-olive-two-53.vercel.app/api/top-langs?username=wang2000star&show_icons=true&locale=en&layout=compact&langs_count=11&theme=github_dark_dimmed" alt="wang2000star" width="350" height="250">
 
 
-### Github 贡献图 <picture style="margin-right: 10px;"><img src="/Statistics.gif" width="30" alt="Statistics"></picture>
+### Github 贡献图 <picture style="margin-right: 10px;"><img src="./Statistics.gif" width="30" alt="Statistics"></picture>
 [![wang2000star's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=wang2000star&theme=tokyo-night)](https://github.com/wang2000star/github-readme-activity-graph)
-
