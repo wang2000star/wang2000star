@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -69,4 +69,5 @@ jobs:
             git commit -m "chore: update profile cards"
             git push
           fi
+
 
