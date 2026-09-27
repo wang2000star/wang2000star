@@ -1,0 +1,71 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-profile-cards.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&show_icons=true&locale=en&layout=compact&langs_count=11&theme=github_dark_dimmed
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate activity graph
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PORT: 3000
+        run: |
+          set -euo pipefail
+          mkdir -p profile
+          git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/activity-graph
+          cd /tmp/activity-graph
+          npm ci --no-audit --no-fund
+          npm run build
+          npm start &
+          SERVER_PID=$!
+          trap 'kill ${SERVER_PID} 2>/dev/null || true' EXIT
+
+          for i in $(seq 1 30); do
+            if curl -fsS "http://127.0.0.1:3000/graph?username=${{ github.repository_owner }}&theme=tokyo-night" -o "${GITHUB_WORKSPACE}/profile/activity-graph.svg"; then
+              break
+            fi
+            sleep 2
+          done
+
+          test -s "${GITHUB_WORKSPACE}/profile/activity-graph.svg"
+          if grep -Eq "API rate limit|Can't fetch|Something went wrong" "${GITHUB_WORKSPACE}/profile/activity-graph.svg"; then
+            echo "Activity graph returned an error card"
+            exit 1
+          fi
+          kill ${SERVER_PID} 2>/dev/null || true
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update profile cards"
+            git push
+          fi
