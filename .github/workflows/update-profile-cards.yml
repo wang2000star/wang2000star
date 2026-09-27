@@ -38,7 +38,7 @@ jobs:
           mkdir -p profile
           git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/activity-graph
           cd /tmp/activity-graph
-          npm ci --no-audit --no-fund
+          npm install --no-audit --no-fund
           npm run build
           npm start &
           SERVER_PID=$!
@@ -69,3 +69,4 @@ jobs:
             git commit -m "chore: update profile cards"
             git push
           fi
+
