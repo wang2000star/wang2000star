@@ -22,3 +22,8 @@ Here are some ideas to get you started:
 
 ### Github 贡献图 <picture style="margin-right: 10px;"><img src="./Statistics.gif" width="30" alt="Statistics"></picture>
 [![wang2000star's github activity graph](./profile/activity-graph.svg)](https://github.com/wang2000star/wang2000star)
+
+### 🌍 世界时钟 <picture style="margin-right: 10px;"><img src="./Statistics.gif" width="30" alt="Statistics"></picture>
+[![World Clock · 世界时钟](./profile/world-clock.svg)](https://wang2000star.github.io/World-Clock/)
+
+<sub>卡片每 10 分钟自动更新；点击图片打开实时网页，会自动显示**你本机**的本地时间 ⏰</sub>
