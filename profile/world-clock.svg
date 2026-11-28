@@ -19,15 +19,15 @@
         <rect width="4" height="118" rx="2" fill="#7aa2f7"/>
         <text x="20" y="30" fill="#7aa2f7" font-size="14" font-weight="600">UTC</text>
         <text x="340" y="30" fill="#6b7280" font-size="12" text-anchor="end">UTC+00:00</text>
-        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">19:52:41</text>
-        <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月27日 周五</text>
+        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">02:34:47</text>
+        <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月28日 周六</text>
       </g>
       <g transform="translate(414,108)">
         <rect width="360" height="118" rx="12" fill="#111827" stroke="#1f2937"/>
         <rect width="4" height="118" rx="2" fill="#f7768e"/>
         <text x="20" y="30" fill="#f7768e" font-size="14" font-weight="600">北京</text>
         <text x="340" y="30" fill="#6b7280" font-size="12" text-anchor="end">UTC+08:00</text>
-        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">03:52:41</text>
+        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">10:34:47</text>
         <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月28日 周六</text>
       </g>
       <g transform="translate(798,108)">
@@ -35,7 +35,7 @@
         <rect width="4" height="118" rx="2" fill="#ff9e64"/>
         <text x="20" y="30" fill="#ff9e64" font-size="14" font-weight="600">东京</text>
         <text x="340" y="30" fill="#6b7280" font-size="12" text-anchor="end">UTC+09:00</text>
-        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">04:52:41</text>
+        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">11:34:47</text>
         <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月28日 周六</text>
       </g>
       <g transform="translate(30,246)">
@@ -43,15 +43,15 @@
         <rect width="4" height="118" rx="2" fill="#9ece6a"/>
         <text x="20" y="30" fill="#9ece6a" font-size="14" font-weight="600">伦敦</text>
         <text x="340" y="30" fill="#6b7280" font-size="12" text-anchor="end">UTC+00:00</text>
-        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">19:52:41</text>
-        <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月27日 周五</text>
+        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">02:34:47</text>
+        <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月28日 周六</text>
       </g>
       <g transform="translate(414,246)">
         <rect width="360" height="118" rx="12" fill="#111827" stroke="#1f2937"/>
         <rect width="4" height="118" rx="2" fill="#bb9af7"/>
         <text x="20" y="30" fill="#bb9af7" font-size="14" font-weight="600">纽约</text>
         <text x="340" y="30" fill="#6b7280" font-size="12" text-anchor="end">UTC-05:00</text>
-        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">14:52:41</text>
+        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">21:34:47</text>
         <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月27日 周五</text>
       </g>
       <g transform="translate(798,246)">
@@ -59,8 +59,8 @@
         <rect width="4" height="118" rx="2" fill="#2ac3de"/>
         <text x="20" y="30" fill="#2ac3de" font-size="14" font-weight="600">洛杉矶</text>
         <text x="340" y="30" fill="#6b7280" font-size="12" text-anchor="end">UTC-08:00</text>
-        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">11:52:41</text>
+        <text x="20" y="76" fill="#f4f7fc" font-size="38" font-weight="700" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" letter-spacing="1">18:34:47</text>
         <text x="20" y="102" fill="#8b98ad" font-size="12">2026年11月27日 周五</text>
       </g>
-  <text x="30" y="398" fill="#4b5563" font-size="12">卡片每 10 分钟自动更新 · 生成于北京时间 2026-11-28 03:52:41</text>
+  <text x="30" y="398" fill="#4b5563" font-size="12">卡片每 10 分钟自动更新 · 生成于北京时间 2026-11-28 10:34:47</text>
 </svg>
